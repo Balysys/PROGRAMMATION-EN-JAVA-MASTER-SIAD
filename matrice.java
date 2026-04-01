@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ProduitMatrices {
+public class matrice {
     
     public static void main(String[] args) {
         
