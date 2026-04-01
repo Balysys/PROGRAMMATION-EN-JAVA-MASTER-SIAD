@@ -1,6 +1,6 @@
 import java.util.Scanner; // Importe la classe Scanner pour pouvoir lire les entrées utilisateur au clavier
 
-public class ProduitMatrices { // Déclare une classe publique nommée "ProduitMatrices" (le fichier doit s'appeler ProduitMatrices.java)
+public class matrice { 
     
     public static void main(String[] args) { // Déclare la méthode main, point d'entrée du programme
         // public : accessible depuis n'importe où
