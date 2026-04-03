@@ -1,13 +1,21 @@
 {
     "image": "mcr.microsoft.com/devcontainers/java:17",
-    "forwardPorts": [8080],
+    "forwardPorts": [5900, 6080, 8080],
     "portsAttributes": {
+        "5900": {
+            "label": "VNC Server (GUI Java)",
+            "visibility": "public"
+        },
+        "6080": {
+            "label": "noVNC Web Client",
+            "visibility": "public"
+        },
         "8080": {
             "label": "Mon Application Java",
             "visibility": "public"
         }
     },
-    "postCreateCommand": "echo '✅ Java 17 installé! Lance ton projet avec: ./mvnw spring-boot:run'",
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y xvfb x11vnc fluxbox git && Xvfb :99 -screen 0 1024x768x24 & export DISPLAY=:99 && fluxbox & x11vnc -display :99 -forever -shared -passwd gui123 -rfbport 5900 & git clone https://github.com/novnc/noVNC.git /tmp/noVNC && /tmp/noVNC/utils/novnc_proxy --vnc localhost:5900 &",
     "customizations": {
         "vscode": {
             "extensions": [
