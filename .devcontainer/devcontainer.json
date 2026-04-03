@@ -6,6 +6,9 @@
             "installVnc": true
         }
     },
+    "containerEnv": {
+        "DISPLAY": ":1"
+    },
     "forwardPorts": [6080],
-    "postCreateCommand": "java --version"
+    "onCreateCommand": "sudo rm -f /etc/apt/sources.list.d/yarn.list && sudo apt-get update"
 }
