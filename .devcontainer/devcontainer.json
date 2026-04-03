@@ -1,54 +1,18 @@
 {
-    "name": "Java Development Environment",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
-    "features": {
-        "ghcr.io/devcontainers/features/java:1": {
-            "version": "17",
-            "installMaven": true,
-            "installGradle": false,
-            "jdkDistro": "ms"
-        },
-        "ghcr.io/devcontainers/features/git:1": {
-            "version": "latest"
-        }
-    },
-    "forwardPorts": [8080, 3000, 5000],
+    "image": "mcr.microsoft.com/devcontainers/java:17",
+    "forwardPorts": [8080],
     "portsAttributes": {
         "8080": {
-            "label": "Java Application",
-            "onAutoForward": "notify",
-            "visibility": "public",
-            "protocol": "http"
+            "label": "Mon Application Java",
+            "visibility": "public"
         }
     },
-    "postCreateCommand": "echo '✅ Environment ready! Use: ./mvnw spring-boot:run to start'",
+    "postCreateCommand": "echo '✅ Java 17 installé! Lance ton projet avec: ./mvnw spring-boot:run'",
     "customizations": {
         "vscode": {
             "extensions": [
-                "vscjava.vscode-java-pack",
-                "vscjava.vscode-maven",
-                "vscjava.vscode-gradle",
-                "redhat.java",
-                "vscjava.vscode-java-debug",
-                "vscjava.vscode-java-test"
-            ],
-            "settings": {
-                "java.configuration.runtimes": [
-                    {
-                        "name": "JavaSE-17",
-                        "path": "/usr/local/sdkman/candidates/java/current",
-                        "default": true
-                    }
-                ],
-                "java.compile.nullAnalysis.mode": "automatic",
-                "java.debug.settings.console": "integratedTerminal",
-                "maven.terminal.useJavaHome": true
-            }
+                "vscjava.vscode-java-pack"
+            ]
         }
-    },
-    "remoteUser": "vscode",
-    "containerEnv": {
-        "JAVA_HOME": "/usr/local/sdkman/candidates/java/current",
-        "PATH": "/usr/local/sdkman/bin:/usr/local/sdkman/candidates/java/current/bin:${PATH}"
     }
 }
