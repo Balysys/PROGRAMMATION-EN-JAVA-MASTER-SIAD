@@ -1,0 +1,412 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 18:46:04.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.117
+08-Apr-2026 18:46:04.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 18:21:16 UTC
+08-Apr-2026 18:46:04.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.117.0
+08-Apr-2026 18:46:04.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Apr-2026 18:46:04.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1044-azure
+08-Apr-2026 18:46:04.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2026 18:46:04.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/msopenjdk-current
+08-Apr-2026 18:46:04.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+8-LTS
+08-Apr-2026 18:46:04.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+08-Apr-2026 18:46:04.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 18:46:04.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 18:46:04.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2026 18:46:04.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+08-Apr-2026 18:46:04.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+08-Apr-2026 18:46:04.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2026 18:46:04.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2026 18:46:04.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2026 18:46:04.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 18:46:04.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/conf/logging.properties
+08-Apr-2026 18:46:04.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2026 18:46:04.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2026 18:46:04.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2026 18:46:04.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+08-Apr-2026 18:46:04.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Apr-2026 18:46:04.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2026 18:46:04.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 18:46:04.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 18:46:04.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/temp
+08-Apr-2026 18:46:04.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Apr-2026 18:46:05.649 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 18:46:05.696 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1622] milliseconds
+08-Apr-2026 18:46:05.782 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2026 18:46:05.783 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.117]
+08-Apr-2026 18:46:05.826 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war]
+08-Apr-2026 18:46:07.863 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Apr-2026 18:46:07.898 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war] has finished in [2,071] ms
+08-Apr-2026 18:46:07.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs]
+08-Apr-2026 18:46:07.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs] has finished in [37] ms
+08-Apr-2026 18:46:07.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples]
+08-Apr-2026 18:46:08.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples] has finished in [352] ms
+08-Apr-2026 18:46:08.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager]
+08-Apr-2026 18:46:08.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager] has finished in [33] ms
+08-Apr-2026 18:46:08.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager]
+08-Apr-2026 18:46:08.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager] has finished in [29] ms
+08-Apr-2026 18:46:08.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT]
+08-Apr-2026 18:46:08.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT] has finished in [18] ms
+08-Apr-2026 18:46:08.377 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 18:46:08.390 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2692] milliseconds
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+08-Apr-2026 18:57:24.908 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Apr-2026 18:57:24.912 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 18:57:24.922 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Apr-2026 18:57:25.160 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [immobilier] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Apr-2026 18:57:25.186 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 18:57:25.203 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 18:57:27.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.117
+08-Apr-2026 18:57:27.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 18:21:16 UTC
+08-Apr-2026 18:57:27.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.117.0
+08-Apr-2026 18:57:27.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Apr-2026 18:57:27.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1044-azure
+08-Apr-2026 18:57:27.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2026 18:57:27.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/msopenjdk-current
+08-Apr-2026 18:57:27.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+8-LTS
+08-Apr-2026 18:57:27.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+08-Apr-2026 18:57:27.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 18:57:27.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 18:57:27.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2026 18:57:27.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+08-Apr-2026 18:57:27.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+08-Apr-2026 18:57:27.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2026 18:57:27.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2026 18:57:27.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2026 18:57:27.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 18:57:27.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/conf/logging.properties
+08-Apr-2026 18:57:27.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2026 18:57:27.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2026 18:57:27.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2026 18:57:27.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+08-Apr-2026 18:57:27.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Apr-2026 18:57:27.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2026 18:57:27.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 18:57:27.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 18:57:27.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/temp
+08-Apr-2026 18:57:27.583 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Apr-2026 18:57:27.997 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 18:57:28.030 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [737] milliseconds
+08-Apr-2026 18:57:28.097 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2026 18:57:28.097 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.117]
+08-Apr-2026 18:57:28.115 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war]
+08-Apr-2026 18:57:28.861 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Apr-2026 18:57:28.901 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war] has finished in [786] ms
+08-Apr-2026 18:57:28.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs]
+08-Apr-2026 18:57:28.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs] has finished in [37] ms
+08-Apr-2026 18:57:28.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples]
+08-Apr-2026 18:57:29.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples] has finished in [275] ms
+08-Apr-2026 18:57:29.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager]
+08-Apr-2026 18:57:29.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager] has finished in [29] ms
+08-Apr-2026 18:57:29.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager]
+08-Apr-2026 18:57:29.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager] has finished in [16] ms
+08-Apr-2026 18:57:29.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT]
+08-Apr-2026 18:57:29.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT] has finished in [13] ms
+08-Apr-2026 18:57:29.281 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 18:57:29.294 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1263] milliseconds
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+08-Apr-2026 19:01:28.045 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Apr-2026 19:01:28.047 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:01:28.049 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Apr-2026 19:01:28.074 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [immobilier] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Apr-2026 19:01:28.079 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:01:28.085 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 19:01:30.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.117
+08-Apr-2026 19:01:30.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 18:21:16 UTC
+08-Apr-2026 19:01:30.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.117.0
+08-Apr-2026 19:01:30.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Apr-2026 19:01:30.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1044-azure
+08-Apr-2026 19:01:30.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2026 19:01:30.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/msopenjdk-current
+08-Apr-2026 19:01:30.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+8-LTS
+08-Apr-2026 19:01:30.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+08-Apr-2026 19:01:30.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:01:30.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:01:30.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2026 19:01:30.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+08-Apr-2026 19:01:30.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+08-Apr-2026 19:01:30.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2026 19:01:30.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2026 19:01:30.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2026 19:01:30.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 19:01:30.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/conf/logging.properties
+08-Apr-2026 19:01:30.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2026 19:01:30.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2026 19:01:30.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2026 19:01:30.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+08-Apr-2026 19:01:30.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Apr-2026 19:01:30.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2026 19:01:30.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:01:30.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:01:30.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/temp
+08-Apr-2026 19:01:30.995 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Apr-2026 19:01:31.373 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:01:31.406 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [861] milliseconds
+08-Apr-2026 19:01:31.452 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2026 19:01:31.453 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.117]
+08-Apr-2026 19:01:31.471 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war]
+08-Apr-2026 19:01:32.435 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Apr-2026 19:01:32.488 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war] has finished in [1,016] ms
+08-Apr-2026 19:01:32.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs]
+08-Apr-2026 19:01:32.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs] has finished in [21] ms
+08-Apr-2026 19:01:32.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples]
+08-Apr-2026 19:01:32.726 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples] has finished in [216] ms
+08-Apr-2026 19:01:32.726 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager]
+08-Apr-2026 19:01:32.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager] has finished in [33] ms
+08-Apr-2026 19:01:32.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager]
+08-Apr-2026 19:01:32.823 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager] has finished in [62] ms
+08-Apr-2026 19:01:32.827 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT]
+08-Apr-2026 19:01:32.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT] has finished in [20] ms
+08-Apr-2026 19:01:32.850 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:01:32.861 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1454] milliseconds
+=== TENTATIVE DE CONNEXION ===
+Email: ahlonsouquenting12@gmail.com
+Mot de passe saisi: 123456789
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+✅ Utilisateur trouvé: Claudia
+Mot de passe stocké: $2a$10$ew5QH5bg83RnaBjZq7vFkeOg7bBD1qFgZ9GlSRbtkCpxUiIEBUuPq
+Résultat BCrypt.checkpw: true
+✅ Connexion réussie pour: Claudia
+=== TENTATIVE DE CONNEXION ===
+Email: hassana@test.com
+Mot de passe saisi: hassana
+✅ Utilisateur trouvé: Hassana
+Mot de passe stocké: a0.MrZgB6D7QzJjZQYzYjL9aVvXwJkKt5K
+08-Apr-2026 19:03:08.835 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Apr-2026 19:03:08.837 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:03:08.841 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Apr-2026 19:03:08.867 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [immobilier] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Apr-2026 19:03:08.872 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:03:08.882 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 19:03:11.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.117
+08-Apr-2026 19:03:11.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 18:21:16 UTC
+08-Apr-2026 19:03:11.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.117.0
+08-Apr-2026 19:03:11.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Apr-2026 19:03:11.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1044-azure
+08-Apr-2026 19:03:11.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2026 19:03:11.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/msopenjdk-current
+08-Apr-2026 19:03:11.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+8-LTS
+08-Apr-2026 19:03:11.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+08-Apr-2026 19:03:11.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:03:11.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:03:11.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2026 19:03:11.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+08-Apr-2026 19:03:11.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+08-Apr-2026 19:03:11.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2026 19:03:11.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2026 19:03:11.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2026 19:03:11.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 19:03:11.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/conf/logging.properties
+08-Apr-2026 19:03:11.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2026 19:03:11.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2026 19:03:11.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2026 19:03:11.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+08-Apr-2026 19:03:11.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Apr-2026 19:03:11.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2026 19:03:11.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:03:11.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:03:11.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/temp
+08-Apr-2026 19:03:11.434 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Apr-2026 19:03:11.857 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:03:11.878 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [718] milliseconds
+08-Apr-2026 19:03:11.912 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2026 19:03:11.913 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.117]
+08-Apr-2026 19:03:11.926 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war]
+08-Apr-2026 19:03:12.802 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Apr-2026 19:03:12.855 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war] has finished in [930] ms
+08-Apr-2026 19:03:12.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs]
+08-Apr-2026 19:03:12.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs] has finished in [35] ms
+08-Apr-2026 19:03:12.895 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples]
+08-Apr-2026 19:03:13.151 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples] has finished in [256] ms
+08-Apr-2026 19:03:13.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager]
+08-Apr-2026 19:03:13.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager] has finished in [36] ms
+08-Apr-2026 19:03:13.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager]
+08-Apr-2026 19:03:13.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager] has finished in [28] ms
+08-Apr-2026 19:03:13.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT]
+08-Apr-2026 19:03:13.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT] has finished in [18] ms
+08-Apr-2026 19:03:13.247 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:03:13.260 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1381] milliseconds
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+08-Apr-2026 19:04:55.629 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Apr-2026 19:04:55.631 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:04:55.632 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Apr-2026 19:04:55.658 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [immobilier] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Apr-2026 19:04:55.662 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:04:55.667 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 19:04:58.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.117
+08-Apr-2026 19:04:58.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 18:21:16 UTC
+08-Apr-2026 19:04:58.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.117.0
+08-Apr-2026 19:04:58.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Apr-2026 19:04:58.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1044-azure
+08-Apr-2026 19:04:58.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2026 19:04:58.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/msopenjdk-current
+08-Apr-2026 19:04:58.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+8-LTS
+08-Apr-2026 19:04:58.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+08-Apr-2026 19:04:58.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:04:58.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:04:58.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2026 19:04:58.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+08-Apr-2026 19:04:58.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+08-Apr-2026 19:04:58.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2026 19:04:58.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2026 19:04:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2026 19:04:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 19:04:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/conf/logging.properties
+08-Apr-2026 19:04:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2026 19:04:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2026 19:04:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2026 19:04:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+08-Apr-2026 19:04:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Apr-2026 19:04:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2026 19:04:58.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:04:58.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:04:58.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/temp
+08-Apr-2026 19:04:58.128 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Apr-2026 19:04:58.633 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:04:58.688 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [821] milliseconds
+08-Apr-2026 19:04:58.739 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2026 19:04:58.740 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.117]
+08-Apr-2026 19:04:58.756 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war]
+08-Apr-2026 19:04:59.684 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Apr-2026 19:04:59.738 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war] has finished in [982] ms
+08-Apr-2026 19:04:59.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs]
+08-Apr-2026 19:04:59.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs] has finished in [20] ms
+08-Apr-2026 19:04:59.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples]
+08-Apr-2026 19:04:59.974 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples] has finished in [214] ms
+08-Apr-2026 19:04:59.974 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager]
+08-Apr-2026 19:04:59.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager] has finished in [25] ms
+08-Apr-2026 19:05:00.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager]
+08-Apr-2026 19:05:00.021 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager] has finished in [21] ms
+08-Apr-2026 19:05:00.021 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT]
+08-Apr-2026 19:05:00.042 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT] has finished in [20] ms
+08-Apr-2026 19:05:00.046 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:05:00.057 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1367] milliseconds
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+08-Apr-2026 19:07:39.209 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Apr-2026 19:07:39.210 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:07:39.214 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Apr-2026 19:07:39.242 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [immobilier] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Apr-2026 19:07:39.255 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:07:39.270 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 19:07:41.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.117
+08-Apr-2026 19:07:41.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 18:21:16 UTC
+08-Apr-2026 19:07:41.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.117.0
+08-Apr-2026 19:07:41.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Apr-2026 19:07:41.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1044-azure
+08-Apr-2026 19:07:41.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2026 19:07:41.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/msopenjdk-current
+08-Apr-2026 19:07:41.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+8-LTS
+08-Apr-2026 19:07:41.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+08-Apr-2026 19:07:41.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:07:41.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:07:41.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2026 19:07:41.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+08-Apr-2026 19:07:41.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+08-Apr-2026 19:07:41.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2026 19:07:41.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2026 19:07:41.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2026 19:07:41.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 19:07:41.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/conf/logging.properties
+08-Apr-2026 19:07:41.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2026 19:07:41.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2026 19:07:41.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2026 19:07:41.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+08-Apr-2026 19:07:41.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Apr-2026 19:07:41.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2026 19:07:41.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:07:41.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:07:41.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/temp
+08-Apr-2026 19:07:41.706 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Apr-2026 19:07:42.079 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:07:42.121 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [665] milliseconds
+08-Apr-2026 19:07:42.193 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2026 19:07:42.195 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.117]
+08-Apr-2026 19:07:42.226 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war]
+08-Apr-2026 19:07:43.131 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Apr-2026 19:07:43.177 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war] has finished in [950] ms
+08-Apr-2026 19:07:43.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs]
+08-Apr-2026 19:07:43.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs] has finished in [36] ms
+08-Apr-2026 19:07:43.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples]
+08-Apr-2026 19:07:43.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples] has finished in [237] ms
+08-Apr-2026 19:07:43.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager]
+08-Apr-2026 19:07:43.482 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager] has finished in [29] ms
+08-Apr-2026 19:07:43.484 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager]
+08-Apr-2026 19:07:43.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager] has finished in [30] ms
+08-Apr-2026 19:07:43.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT]
+08-Apr-2026 19:07:43.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT] has finished in [20] ms
+08-Apr-2026 19:07:43.541 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:07:43.552 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1430] milliseconds
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+08-Apr-2026 19:36:31.783 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Apr-2026 19:36:31.785 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:36:31.787 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Apr-2026 19:36:31.835 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [immobilier] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Apr-2026 19:36:31.840 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:36:31.855 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 19:36:34.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.117
+08-Apr-2026 19:36:34.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 18:21:16 UTC
+08-Apr-2026 19:36:34.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.117.0
+08-Apr-2026 19:36:34.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Apr-2026 19:36:34.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1044-azure
+08-Apr-2026 19:36:34.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Apr-2026 19:36:34.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/msopenjdk-current
+08-Apr-2026 19:36:34.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+8-LTS
+08-Apr-2026 19:36:34.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+08-Apr-2026 19:36:34.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:36:34.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:36:34.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2026 19:36:34.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+08-Apr-2026 19:36:34.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+08-Apr-2026 19:36:34.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2026 19:36:34.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2026 19:36:34.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2026 19:36:34.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2026 19:36:34.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/conf/logging.properties
+08-Apr-2026 19:36:34.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2026 19:36:34.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2026 19:36:34.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2026 19:36:34.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+08-Apr-2026 19:36:34.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Apr-2026 19:36:34.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Apr-2026 19:36:34.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:36:34.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9
+08-Apr-2026 19:36:34.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/temp
+08-Apr-2026 19:36:34.318 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Apr-2026 19:36:34.758 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:36:34.786 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [775] milliseconds
+08-Apr-2026 19:36:34.835 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2026 19:36:34.835 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.117]
+08-Apr-2026 19:36:34.858 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war]
+08-Apr-2026 19:36:36.018 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Apr-2026 19:36:36.175 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/immobilier.war] has finished in [1,317] ms
+08-Apr-2026 19:36:36.176 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs]
+08-Apr-2026 19:36:36.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/docs] has finished in [52] ms
+08-Apr-2026 19:36:36.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples]
+08-Apr-2026 19:36:36.845 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/examples] has finished in [615] ms
+08-Apr-2026 19:36:36.845 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager]
+08-Apr-2026 19:36:36.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/manager] has finished in [45] ms
+08-Apr-2026 19:36:36.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager]
+08-Apr-2026 19:36:36.923 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/host-manager] has finished in [32] ms
+08-Apr-2026 19:36:36.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT]
+08-Apr-2026 19:36:36.946 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/PROGRAMMATION-EN-JAVA-MASTER-SIAD/tomcat9/webapps/ROOT] has finished in [23] ms
+08-Apr-2026 19:36:36.950 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2026 19:36:36.964 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2178] milliseconds
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.

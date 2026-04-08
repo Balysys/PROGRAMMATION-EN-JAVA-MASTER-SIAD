@@ -20,7 +20,7 @@ public class ConnexionServlet extends HttpServlet {
         
         User user = userDAO.trouverParEmail(email);
         
-        // Comparaison directe (sans BCrypt pour les données de test)
+        // Comparaison DIRECTE (mots de passe en clair)
         if (user != null && mdp.equals(user.getMotDePasse())) {
             req.getSession().setAttribute("user", user);
             resp.sendRedirect(req.getContextPath() + "/accueil");
